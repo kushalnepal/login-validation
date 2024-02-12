@@ -1,0 +1,54 @@
+2009 by ryan dahl(he was the first man who run javascript in browser )
+ui/ux can run on server (Due to virtual dom concept in react its all Dom cannot be reflected in internet it make search engine
+cannot recognize it)
+so for development we need nodejs
+before nodejs javascript is for client side only 
+
+we start form what is not nodejs ??
+nodejs is not a framework.
+nodejs is runtime enviroment for javascript
+serversite javascript is nodejs
+
+we need serversite layer to communicate with data
+
+serversite programing
+1. Database communication
+2. serversite (use of ram)
+   how much processing power we will use
+   cpu can configure by us
+process,, thread
+ (these all are related to our operating system)
+
+In order to communicate with (file to file communications)
+it is basically  concept of module
+
+# # we need protocol to communicate between two programming
+HTTP,,TCP protocol
+
+# # const net =require ('net')
+encryption related things 
+  1. crypto module used
+# # child processed (operating system ko kuro)
+
+
+Version checks
+node --Version
+npm --Version
+npx --Version
+After installation of node these all are reflected in terminal
+
+# # Node js kasari kam garxa vanne kura xaii Events module bata clear hunxa
+
+ja ko packAge manage garne kam npm
+npm init
+packAge.json --> it holds the overall information about project
+packAgelock.json --> Dependences ko version lock garne kam garxa
+nodemodules --> Downloaded packages are stored in node modules.
+Dependencies --> this section will hold the entire information about Dependences
+
+Dev Dependencies --> Only used for development purpose
+
+if we found tilde operation in version (~13.2.0) yo use garda vetiyo vane  yeii version linxa vetiyena vane 
+yesko Ori pari ka version laii line vayo (but latest xaiii lidaina)
+
+yedi naya install garna paryo vane suru bataii install garna parxa
