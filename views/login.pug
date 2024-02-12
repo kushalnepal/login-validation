@@ -1,0 +1,14 @@
+html
+    head
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css", integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N", crossorigin="anonymous")
+    body.container
+        h2 login
+        p Please login to continue
+        form(name="loginform" method="post" action="/api/auth/userdashbord").form-group
+             label(for="username") username
+             input(type="text" name="username" id="username" placeholder="username").form-control
+             label(for="password") password
+             input(name="password" type="password" id="password"  placeholder="password").form-control
+             input(type="submit" value="login").btn.btn-primary
+        p Dont have account?
+        p Register here
